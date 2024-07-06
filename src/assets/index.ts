@@ -1,0 +1,5 @@
+export {Apple} from './icon-components/apple.tsx'
+export {Bitcoin} from './icon-components/bitcoin.tsx'
+export {Google} from './icon-components/google.tsx'
+export {Ethereum} from './icon-components/ethereum.tsx'
+export {Litecoin} from './icon-components/litecoin.tsx'
