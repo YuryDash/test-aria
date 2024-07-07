@@ -1,0 +1,19 @@
+.wrapper {
+  margin-top: 122px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .pseudoElements {
+    display: flex;
+    flex-direction: column;
+    top: 40px;
+    left: 1000px;
+    position: absolute;
+    z-index: -1;
+
+    div:nth-child(2){
+      margin-left: -212px;
+    }
+  }
+}

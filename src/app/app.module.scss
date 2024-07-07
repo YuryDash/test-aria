@@ -1,0 +1,118 @@
+.wrapper {
+  padding: 48px 62px;
+
+  .main {
+    display: flex;
+
+
+    .mainLeftSide {
+      .title {
+        font-size: 84px;
+        font-weight: 700;
+        max-height: 300px;
+        max-width: 1000px;
+
+        line-height: 90px;
+        margin-bottom: 44px;
+
+        .titleGradient {
+          background: linear-gradient(to right, var(--color-gradient-100), var(--color-gradient-300), var(--color-gradient-500));
+          -webkit-background-clip: text;
+          color: transparent;
+        }
+      }
+
+
+      .subscribe {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 40.8px;
+        color: var(--color-font-500);
+
+        margin-bottom: 88px;
+      }
+
+      .rating {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        max-width: 550px;
+
+        margin-bottom: 100px;
+      }
+
+      .button {
+        width: 532px;
+        height: 56px;
+        border-radius: 16px;
+        background: linear-gradient(to right, var(--color-gradient-100), var(--color-gradient-300), var(--color-gradient-500));
+
+        cursor: pointer;
+        color: var(--color-bg);
+        font-size: 28px;
+        font-weight: 500;
+      }
+    }
+
+    .mainRightSide {
+    }
+  }
+}
+
+//=======================================================
+@media (max-width: 320px) {
+
+  .wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 16px;
+    max-width: 320px;
+
+    .main {
+
+
+      .mainLeftSide {
+        .title {
+          font-size: 48px;
+          font-weight: 700;
+          max-height: 258px;
+          max-width: 288px;
+
+          line-height: 40px;
+          margin-bottom: 20px;
+        }
+
+
+        .subscribe {
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 24px;
+          color: var(--color-font-500);
+
+          margin-bottom: 20px;
+        }
+
+        .rating {
+          max-width: 288px;
+          margin-bottom: 28px;
+        }
+
+        .button {
+          width: 288px;
+          height: 48px;
+          font-size: 20px;
+        }
+      }
+
+      .mainRightSide {
+        visibility: hidden;
+        display: none;
+      }
+    }
+  }
+}

@@ -9,7 +9,7 @@ export function Bitcoin(fullProps: IconProps) {
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="312"
-        height="352"
+        height="312"
         fill="none"
         viewBox="0 0 312 352"
         {...props}

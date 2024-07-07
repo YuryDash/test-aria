@@ -1,0 +1,27 @@
+.wrapper {
+
+  .title {
+    font-size: 48px;
+    font-weight: 700;
+  }
+
+  .description {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-font-500)
+  }
+}
+
+
+@media (max-width: 320px) {
+  .wrapper {
+    .title {
+      font-size: 28px;
+    }
+
+    .description {
+      font-size: 14px;
+    }
+  }
+
+}
